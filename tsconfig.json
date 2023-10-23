@@ -3,7 +3,7 @@
     "lib": [
       "ES2021.String"
     ],
-    "allowJs":true,
+    "declaration":true,
     "rootDir": "src",
     "outDir": "dist/TEMP",
     "strict": true,
@@ -14,5 +14,5 @@
     "moduleResolution": "node",
     "resolveJsonModule": true
   },
-  "exclude": ["jest.config.ts","src/tests/**/*.spec.ts", "dist"]
+  "exclude": ["jest.config.ts","src/tests", "dist"]
 }
