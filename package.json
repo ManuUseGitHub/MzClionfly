@@ -2,7 +2,7 @@
   "name": "mzclionfly",
   "version": "1.0.2",
   "description": "",
-  "main": "dist/index.min.js",
+  "main": "dist/index.js",
   "scripts": {
     "build-s": "npm run build --silent",
     "dev-build": "npx rimraf dist && npm run compile && npm run extract-temp && npm run end-dev-bld",
